@@ -1,0 +1,41 @@
+.color-picker {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;;
+  padding-left: 0px;
+  border: 0.5px solid #aba4a4; 
+  border-radius: 20px;
+  max-height: 600px;
+  box-shadow:0px 3px 20px #1a1818;
+  background-color:#FFB6C1 
+}
+
+button {
+  padding: 10px 10px;
+  background-color: rgb(76, 169, 76);
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 260px;
+}
+
+.color-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  margin-top: 250px;
+  border-radius: 5px;
+  padding-bottom: 5px;
+}
+
+.color-item {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 6px #0f0f0f;
+}
+
+p {
+  margin-top: 10px;
+}
